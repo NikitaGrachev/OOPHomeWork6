@@ -63,7 +63,6 @@ class Lecture(Mentor):
             return
         return self.average_value() < other.average_value_student()
 
-
 class Reviewer(Mentor):
 
     def rate_hw(self, student, course, grade):
@@ -113,5 +112,3 @@ print(cool_reviewer)
 print(cool_lecture)
 print(best_student)
 print(cool_lecture < best_student)
-print(cool_lecture > best_student)
-print(cool_lecture == best_student)
